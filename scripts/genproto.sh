@@ -25,8 +25,8 @@ protoc --version
 #Using protoc version 2.5.0
 cd "$GAUGE_PROTO_DIR"
 
-rm -rf "$DEST_DIR"
-mkdir -p "$DEST_DIR"
+# rm -rf "$DEST_DIR"
+# mkdir -p "$DEST_DIR"
 
 protoc --rust_out "$DEST_DIR/" "spec.proto"
 protoc --rust_out "$DEST_DIR/" "messages.proto"

@@ -8,6 +8,6 @@ Rust language runner for Gauge test automation suite
 """
 
 [dependencies]
-protobuf = "1.0.15"
-rustc-serialize = "0.3.16"
-lazy_static = "0.1.15"
+protobuf = "2.22.0"
+rustc-serialize = "0.3.24"
+lazy_static = "1.4.0"

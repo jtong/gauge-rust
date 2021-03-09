@@ -17,8 +17,8 @@ OUTPUT_FILE="gauge-rs-$VERSION-$PLATFORM.$ARCH.zip"
 
 echo "\nUninstalling:"
 
-gauge --verbose --uninstall rust --plugin-version "$VERSION"
+gauge uninstall rust
 
 echo "\nInstalling:"
 
-gauge --verbose --install rust --file "$DEPLOY_DIR/$OUTPUT_FILE"
+gauge install rust --file "$DEPLOY_DIR/$OUTPUT_FILE"
