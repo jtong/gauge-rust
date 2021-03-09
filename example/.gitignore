@@ -1,0 +1,9 @@
+.gauge/
+logs/
+reports/
+
+
+/target/
+
+## Ignore Mac Desktop Services Store file
+.DS_Store

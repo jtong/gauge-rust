@@ -1,0 +1,6 @@
+{
+  "Language": "rust",
+  "Plugins": [
+    "html-report"
+  ]
+}

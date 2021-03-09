@@ -1,0 +1,10 @@
+[package]
+
+name = "gauge-rust-template"
+version = "0.0.1"
+authors = [ "" ]
+description = """
+Starter template for writing JavaScript tests for Gauge
+"""
+
+[dependencies]
