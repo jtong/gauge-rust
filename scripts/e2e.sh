@@ -14,4 +14,5 @@ echo "\nExecute Specs:"
 
 cd "$EXAMPLE_DIR"
 
-gauge run specs
+gauge run --verbose specs -l debug
+# gauge run --verbose specs 

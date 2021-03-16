@@ -1,4 +1,5 @@
-use common::*;
+
+use crate::common::*;
 
 pub fn init() {
     let steps_file = &CONFIG.steps_file;

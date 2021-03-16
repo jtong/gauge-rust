@@ -1,4 +1,4 @@
-use common::*;
+use crate::common::*;
 use std::fs::DirEntry;
 use std::ffi::OsStr;
 
